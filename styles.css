@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(231, 231, 238);
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar > h2 {
+    margin: 50px;
+    padding-top: 20px;
+    font-size: 3rem;
+}
+
+.navbar > button {
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+header > .section1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+  
+.mobiles {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+}
+  
+.mobiles img {
+    max-width: 100%;
+    height: auto;
+}
+  
+main > .section3 > h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    height: 50vh; 
+}
+  
+.section3 > .input {
+    width: 100%; 
+    max-width: 300px; 
+    height: 30px;
+    border-color: transparent;
+    border-radius: 5px;
+}
+  
+.section3 > .input::placeholder {
+    color: black;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+  
+.btn-primary {
+    background-color: blue;
+    cursor: pointer;
+}
+  
+.footer {
+    color: black;
+    text-align: center;
+}
+ 
+#phone-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+    gap: 25px;
+    margin: 0 auto; 
+    max-width: 1200px; 
+    text-align: center;
+}
+
+.modal-action button {
+    background-color: red;
+    color: white; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+  
+.modal-action button:hover {
+    background-color: transparent; 
+    border-color: red;
+    color: red;
+    cursor: pointer;
+}
+
+#showALLBtn {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+    cursor: pointer;
+}
+  
+#showALLBtn button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+#showALLBtn button:hover {
+    background-color: #333; 
+    cursor: pointer;
+}
+  
